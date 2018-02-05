@@ -105,7 +105,43 @@ html {
    animation: rotate-spinner2-2 1s infinite linear;
 }
 
+/* BOTTOM NAVIGATION */
 
+.navigation {
+   position: absolute;
+   bottom: 5%;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+
+   margin: 0 auto;
+
+   font-size: 2rem;
+}
+
+.navigation a {
+   text-decoration: none;
+
+   color: #ebebeb;
+}
+
+.navigation a:nth-child(2) {
+   padding: 0 30px;
+}
+
+.navigation a:hover {
+   cursor: pointer;
+
+   color: #bbb9bb;
+}
+
+.navigation a:active {
+   transform: translateY(1px);
+}
+
+/* KEYFRAMES */
 
 @-webkit-keyframes rotate-1 {
    0% {
